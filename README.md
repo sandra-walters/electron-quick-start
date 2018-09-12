@@ -1,3 +1,8 @@
+
+[![Build status](https://sandrawalters.visualstudio.com/ElectronQuickStart/_apis/build/status/ElectronQuickStart%20-%20Publish?branchName=feature%2Fdevops-pipeline)](https://sandrawalters.visualstudio.com/ElectronQuickStart)
+
+This is a fork of the [electron-quick-start](https://github.com/electron/electron-quick-start) project for use with illustrating Azure DevOps pipelines.
+
 # electron-quick-start
 
 **Clone and run for a quick way to see Electron in action.**

@@ -4,9 +4,12 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "win-packager": "electron-packager . quickstart --platform=win32 --arch=x64 --prune=true --overwrite --asar",
+    "macos-packager": "electron-packager . quickstart --platform=darwin --arch=x64 --prune=true --overwrite --asar",
+    "linux-packager": "electron-packager . quickstart --platform=linux --arch=x64 --prune=true --overwrite --asar"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/sandra-walters/electron-quick-start",
   "keywords": [
     "Electron",
     "quick",
@@ -17,6 +20,10 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^2.0.0"
+    "electron": "^2.0.0",
+    "electron-packager": "^12.1.1"
+  },
+  "dependencies": {
+    "npm": "^6.4.1"
   }
 }
